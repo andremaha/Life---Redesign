@@ -52,7 +52,11 @@ MOBILE
        screen and (max-width: 750px) {
        
        body {
-           font-size: 120%;
+           font-size: 150%;
+       }
+       
+       #feature h3 {
+           font-size: 230%;
        }
         
        #wrapper {
