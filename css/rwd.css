@@ -54,7 +54,12 @@ MOBILE
        body {
            font-size: 120%;
        }
-         
+        
+       #wrapper {
+           margin: 0 auto;
+           width: 95%;
+       } 
+        
        #logo {
            width: 100%;
        }
