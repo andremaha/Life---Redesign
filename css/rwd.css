@@ -52,11 +52,11 @@ MOBILE
        screen and (max-width: 750px) {
        
        body {
-           font-size: 150%;
+           font-size: 180%;
        }
        
        #feature h3 {
-           font-size: 230%;
+           font-size: 270%;
        }
         
        #wrapper {
@@ -84,6 +84,10 @@ MOBILE
        
        #testimonials #thewhat {
            margin: 0;
+       }
+       
+       #testimonials h4 {
+           padding: 0 0 4.2105263157895% 0;
        }
        
        
