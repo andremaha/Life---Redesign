@@ -61,19 +61,20 @@ MOBILE
        } 
         
        #logo {
-           width: 100%;
+           width: inherit;
        }
        #slogan {
-           width: 50%;
+           width: inherit;
        }
           
        #feature, #testimonials {
-           width:  100%;
+           width:  inherit;
            margin: 4.2105263157895% 0 0 0;
            float: left;
        } 
        
        #testimonials article {
+           width: inherit;
            margin: 4.2105263157895% 0 0 0;
        }
        
