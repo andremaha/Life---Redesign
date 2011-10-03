@@ -1,0 +1,45 @@
+/**********************
+TABLET
+**********************/
+@media (max-width: 1024px) {
+    #feature {
+      width: 36.8421052631578%; /* 430 / 950   */
+      float: right;
+      padding: 4.2105263157895%;
+      margin: 0;
+    }
+    
+    #feature .teaser-text, #feature .teaser-img {
+        width: 100%;
+        margin: 0;
+        
+    }
+    
+    #feature .teaser-text p {
+       
+    }
+    
+    #feature .teaser-text h3 {
+        margin-bottom: 4.2105263157895%;
+    }
+    
+    #testimonials {
+        width: 45.2631578947368%;
+        margin: 0 0 0 4.2105263157895%;;
+        float: left;
+    }
+    
+    #testimonials article {
+        width: 100%;
+        margin: 0 0 4.2105263157895% 0;
+    }
+    
+    #testimonials #thewhat {
+        margin: 0 0 4.2105263157895% 0;
+    }
+    
+    #footer {
+        margin: 0;
+        width: 100%;
+    }
+}
