@@ -1,0 +1,252 @@
+ 
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0b1 | 201101 
+   NOTE: WORK IN PROGRESS
+   USE WITH CAUTION AND TEST WITH ABANDON */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+/* remember to define visible focus styles! 
+:focus {
+	outline: ?????;
+} */
+
+/* remember to highlight inserts somehow! */
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* The Magnificent Clearfix: Updated to prevent margin-collapsing on child elements.
+   j.mp/bestclearfix */
+.group:before, .group:after { content: "\0020"; display: block; height: 0; overflow: hidden; }
+.group:after { clear: both; }
+/* Fix clearfix: blueprintcss.lighthouseapp.com/projects/15318/tickets/5-extra-margin-padding-bottom-of-page */
+.group { zoom: 1; }
+
+/**********************
+BASE
+**********************/
+@font-face {
+	font-family: 'Jura-DemiBold';
+	src: url('../fonts/Jura-DemiBold.otf');
+/*	src: local('☺'), url('../type/aller_rg-webfont.woff') format('woff'), 
+url('../type/aller_rg-webfont.ttf') format('truetype'), url('../type/aller_rg-webfont.svg#webfontooYDBZYS') format('svg');*/
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+	font-family: 'Lobster';
+	src: url('../fonts/Lobster_1.3.otf');
+/*	src: local('☺'), url('../type/aller_rg-webfont.woff') format('woff'), 
+url('../type/aller_rg-webfont.ttf') format('truetype'), url('../type/aller_rg-webfont.svg#webfontooYDBZYS') format('svg');*/
+  font-weight: normal;
+  font-style: normal;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background: -moz-linear-gradient(top, #FFFFFF, 0%, #C5C5C5, 30%) no-repeat;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #FFFFFF), color-stop(30%, #C5C5C5)) no-repeat;
+    height: 100%;
+    background-color: #C5C5C5; 
+ /*   background: #222222; */
+    color: #222;
+    font-family: Verdana, arial, serif;
+    font-size: 80%;
+}
+
+img {
+    max-width: 100%; /* Images will be resized to the width of their containers */
+}
+
+p {
+    line-height: 1.2em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Jura-DemiBold;
+}
+
+#wrapper {
+    margin: 0 auto;
+    width: 70%;
+}
+
+#main-content {
+    float: left;
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+/**********************
+HEADER
+**********************/
+#header {
+    margin: 4.2105263157895% 0;
+}
+
+#logo {
+    width: 24.2105263157895%; /* 230 / 950 */
+    float: left;
+    margin-left: 4.2105263157895%; /* 40 / 950 */
+}
+
+#logo h1 {
+    text-indent: -9999px;
+}
+
+#slogan {
+    width: 11.5789473684211%; /* 110 / 950 */
+    float: left;
+    margin-left: 55.7894736842105%; /* 530 / 950 */
+}
+
+#slogan h2 {
+    text-indent: -9999px;
+}
+
+/**********************
+FEATURE
+**********************/
+#feature {
+    width: 91.5789473684211%; /* 870 / 950 */
+    margin-left: 4.2105263157895%;
+    background: white;
+    opacity: 0.6;
+    box-shadow: 2px 10px 23px rgb(0,0,0);
+}
+
+#feature article {
+    width: 100%;
+}
+
+#feature h3 {
+    font-size: 130%;
+}
+
+#feature .teaser-text {
+    float: left;
+    width: 41.0526315789474%; /* 390 / 950 */
+    margin-left: 4.2105263157895%;
+    margin-top: 4.2105263157895%;
+    margin-bottom: 4.2105263157895%;
+}
+
+#feature .teaser-text p {
+    margin: 9.4736842105263% 0;
+}
+
+#feature .teaser-img {
+    float: left;
+    width: 45.842105%; /* 350 / 950 - looks bad - changed*/
+    margin-left: 5.2631578947368%; /* 50 / 950 */
+    margin-top: 10.210526%;
+    margin-bottom: 4.2105263157895%;
+}
+
+/**********************
+TESTIMONIALS
+**********************/
+#testimonials {
+    margin-top: 4.2105263157895%;
+}
+
+#testimonials article {
+    width: 15.7894736842105%; /* 230 / 950 */
+    float: left;
+    margin-left: 9.4736842105263%; /* 90 / 950 */
+    background: white;
+    padding: 4.2105263157895%;
+    opacity: 0.6;
+    box-shadow: 2px 10px 23px rgb(0,0,0);
+}
+
+#testimonials #thewhat {
+    margin-left: 4.2105263157895%; /* 40 / 950 */
+}
+
+#testimonials h4 {
+    text-align: center;
+    padding: 9.4736842105263%;
+    border-bottom: 1px solid #222222;
+}
+
+#testimonials h4 strong {
+    display: block;
+    margin-top: 4.2105263157895%;
+    font-size: 250%;
+}
+
+#testimonials p {
+    padding-top: 9.4736842105263%;;
+}
+
+/**********************
+FOOTER
+**********************/
+#footer {
+    border-top: 1px solid #222222;
+    width: 91.5789473684211%; /* 870 / 950 */;
+    height: 13.1578947368421%; /* 125 / 950 */
+    margin-left: 4.2105263157895%;
+    margin-top: 4.2105263157895%;
+    padding-top: 3.1578947368421%; /* 30 / 950 */
+}
+
+#footer p {
+    text-align: right;
+    font-family: Lobster;
+    color: #c4b3a6;
+    font-size: 130%;
+}
