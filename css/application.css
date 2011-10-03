@@ -163,8 +163,7 @@ FEATURE
 #feature {
     width: 91.5789473684211%; /* 870 / 950 */
     margin-left: 4.2105263157895%;
-    background: white;
-    opacity: 0.6;
+    background: rgba(255, 255, 255, 0.6);
     box-shadow: 2px 10px 23px rgb(0,0,0);
 }
 
@@ -196,6 +195,10 @@ FEATURE
     margin-bottom: 4.2105263157895%;
 }
 
+#feature img {
+    background: transparent;
+}
+
 /**********************
 TESTIMONIALS
 **********************/
@@ -212,6 +215,7 @@ TESTIMONIALS
     opacity: 0.6;
     box-shadow: 2px 10px 23px rgb(0,0,0);
 }
+
 
 #testimonials #thewhat {
     margin-left: 4.2105263157895%; /* 40 / 950 */

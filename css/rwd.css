@@ -43,3 +43,35 @@ TABLET
         width: 100%;
     }
 }
+
+/**********************
+MOBILE
+**********************/
+@media handheld and (max-width: 480px),
+       screen and (max-device-width: 480px),
+       screen and (max-width: 750px) {
+          
+       #logo {
+           width: 100%;
+       }
+       #slogan {
+           width: 50%;
+       }
+          
+       #feature, #testimonials {
+           width:  100%;
+           margin: 4.2105263157895% 0 0 0;
+           float: left;
+       } 
+       
+       #testimonials article {
+           margin: 4.2105263157895% 0 0 0;
+       }
+       
+       #testimonials #thewhat {
+           margin: 0;
+       }
+       
+       
+     
+}
