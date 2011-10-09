@@ -119,11 +119,22 @@ img {
 
 p {
     line-height: 1.2em;
+    margin: 4.2105263157895% 0;
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: JuraDemiBold;
     text-shadow: 0px 1px 1px rgba(0,0,0, 0.9);
+    line-height: 1.5em;
+    margin: 0 0 4.2105263157895% 0;
+}
+
+a {
+    color: #222;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
 }
 
 #wrapper {
@@ -134,7 +145,23 @@ h1, h2, h3, h4, h5, h6 {
 #main-content {
     float: left;
     width: 100%;
-    margin-bottom: 5%;
+}
+
+.box {
+    background: rgba(255, 255, 255, 0.6);
+    box-shadow: 2px 10px 23px rgb(0,0,0);
+    padding: 4.2105263157895%;
+    margin: 4.2105263157895% 0 0;
+}
+
+.box h4 {
+    text-align: center;
+    border-bottom: 1px solid #222;
+}
+
+.box h4 strong {
+    display: block;
+    font-size: 250%;
 }
 
 /**********************
@@ -243,6 +270,81 @@ TESTIMONIALS
 #testimonials p {
     padding-top: 9.4736842105263%;;
 }
+
+/**********************
+ARTICLE PAGE
+**********************/
+#main-article, #related-articles {
+    width: 49.4736842105263%; /* (550 [width] - 40 * 2 [padding]) / 950 [total width] */
+    width: 57.8947368421053%; /* (550 [width] / 950 [total width]) - somehow it works too =) */
+    margin-left: 4.2105263157895%;
+    float: left;
+}
+
+#main-article h2 {
+    font-size: 250%;
+    width: 80%;
+    float: left;
+}
+
+#main-article header {
+    margin-bottom: 4.2105263157895%;
+}
+
+#main-article span {
+    font-size: 130%;
+    line-height: 1.3em;
+    text-align: center;
+    display: block;
+    float: right;
+    width: 20%;
+    margin-top: 4.2105263157895%;
+}
+
+#main-article span strong, em {
+    display: block;
+}
+
+.in-text-image {
+    float: right;
+    padding: 0 0 4.2105263157895% 4.2105263157895%;
+    width: 70%;
+}
+
+#related-articles h4 {
+    font-size: 130%;
+}
+
+#related-articles article {
+    width: 31.9148936170213%; /* 150 / 470 [VERY IMPORTANT! THE CONTEXT IS NO LONGER 950!!!]*/
+    margin-left: 2.1276595744681%; /* 10 / 470 */
+    float: left;
+}
+
+#related-articles article.first {
+    margin-left: 0;
+}
+
+#twitter-box, #flickr-box {
+    width: 15.7894736842105%; /* 230 - (40 * 2) / 950  */
+    margin-left: 5.2631578947368%;
+    float: right;
+}
+
+#twitter-box h4, #flickr-box h4 {
+    padding: 9.4736842105263%;
+    margin-bottom: 17.3913043478261%; /* 40 / 230 */
+}
+
+#twitter-box h4 strong, #flickr-box h4 strong {
+    padding: 4.3478260869565% 0; /* 10 / 230 */
+}
+
+#related-articles h4 {
+    padding: 0 0 7.2727272727273%; /* 40 / 550 */
+    margin-bottom: 7.2727272727273% ;
+}
+
 
 /**********************
 FOOTER
